@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   const SCRIPT_URL =
-    "https://script.google.com/macros/s/AKfycbwx90fvnGOTWPJ2TJguG-BSUKw9wpdDP4onY5wCmU5M9njLPfJxtQwASjDWM5_tN4lj/exec";
+    "https://script.google.com/macros/s/AKfycbz8Aq70OV-OnOfBboozlF9xT-LXubUtDbeMEuwvVS-Zj2v7_BUjMKgqNO0AnFXV3-Tb/exec";
 
   try {
     const queryString = new URLSearchParams(req.query).toString();
